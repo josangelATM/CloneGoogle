@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    height: 7vh;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:20%;
+    justify-content: space-evenly;
+}
+
+.nav li{
+    font-size: 1.3rem;
+    list-style:none;
+    display: inline-block;
+    align-self: center;
+}
+
+.nav li a{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 73vh;
+}
+
+.main div{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+
+}
+
+.search-cont input{
+    border-width: 0.1rem;
+    border-radius: 3rem;
+    width: 46rem;
+    height: 4.4rem;
+    padding-left: 4rem;
+}
+
+.lupa{
+    position: absolute;
+    left: 39rem;
+    top: 37.8rem;
+}
+
+.mic{
+    position: absolute;
+    left: 79rem;
+    top: 37.8rem;
+}
+
+.main .button-cont{
+    width: 32rem;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+.button-cont button{
+    height: 3.7rem;
+    padding: 0 1.6rem;
+    font-size: 1.4rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+footer{
+    background-color: #F2F2F2;
+    height: 4rem;
+    width: 100%;
+    border-bottom: solid;
+    border-width: 0.1rem;
+    border-color: darkgrey;
+    font-size: 1.5rem;
+}
+
+.footer1{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    border-top: solid;
+    border-width: 0.1rem;
+    border-color: darkgrey;
+}
+
+.footer1 span{
+    height: fit-content;
+    align-self: center;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.footer2{
+    display: flex;
+}
+
+.left-nav{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+    justify-content: flex-end;
+    margin-right: 2.7rem;
+}
